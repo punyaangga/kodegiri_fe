@@ -5,7 +5,7 @@
       <h4 class="mb-3 mb-md-0">Document Management</h4>
     </div>
     <div class="d-flex align-items-center flex-wrap text-nowrap">
-        <a href="#">
+        <a href="{{ route('documentManagement.create') }}">
             <button type="button" class="btn btn-primary btn-icon-text mb-2 mb-md-0">
                 <i class="btn-icon-prepend" data-feather="plus"></i>
             Tambah Data Dokumen
